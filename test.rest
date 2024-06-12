@@ -1,0 +1,47 @@
+GET http://127.0.0.1:8000/items HTTP/1.1
+content-type: application/json
+
+{
+    
+}
+
+###
+
+GET http://127.0.0.1:8000/items/1 HTTP/1.1
+content-type: application/json
+
+{
+    
+}
+
+
+###
+
+POST http://127.0.0.1:8000/items HTTP/1.1
+content-type: application/json
+
+{
+    "title": "test",
+    "description": "test",
+    "price": 1000
+}
+
+###
+
+PUT http://127.0.0.1:8000/items/1 HTTP/1.1
+content-type: application/json
+
+{
+    "title": "test v1",
+    "description": "test v1",
+    "price": 1000.0
+}
+
+###
+
+DELETE  http://127.0.0.1:8000/items/1 HTTP/1.1
+content-type: application/json
+
+{
+    
+}
